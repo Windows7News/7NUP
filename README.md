@@ -14,4 +14,4 @@
 
 ## 授权
 
-[GPLv3](https://github.com/faceair/7NUP/blob/master/index.php#L8)
+[GPLv3](https://github.com/jysperm/RPUP/blob/master/index.php#L8)
