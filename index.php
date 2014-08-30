@@ -4,10 +4,10 @@ define("ROOT", dirname(__FILE__));
 include ROOT . "/Qiniu/Client.php";
 \Qiniu\Client::registerAutoloader();
 
-$bucket = "qiniu-up";
-$QiniuBaseUrl = "qiniu-up.qiniudn.com";
-$QiniuAccessKey = '';
-$QiniuSecretKey = '';
+$bucket = "mychina";
+$QiniuBaseUrl = "mychina.qiniudn.com";
+$QiniuAccessKey = 'ulXjp8N1AWdmg4IMgi6j41ifQzubUqdeUWaNCAeV';
+$QiniuSecretKey = 'eNAYOZpGiexcVHdTj-GATnGZFXkdkZ846v5xwSwT';
 
 $config = array('access_key' => $QiniuAccessKey,'secret_key' => $QiniuSecretKey);
 $sdk = new \Qiniu\Client($config);
